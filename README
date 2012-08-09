@@ -1,0 +1,11 @@
+# Python interface to MinuteDock
+
+Included is a module `md.py` and a couple of example scripts for interacting with MinuteDock via their API.
+
+This is implemented against the API docs: https://minutedock.com/apidocs
+
+Given the current API is beta, this software should at best be considered alpha.
+Most of the interfaces are read-only, but be careful about using `update` as this modifies your data, and may mess it up when used incorrectly.
+
+Have fun!
+
